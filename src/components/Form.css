@@ -1,0 +1,12 @@
+.form-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.form-container h4{
+    font-size:25px
+}
+
+.form-container p{
+    margin: 20px;
+}

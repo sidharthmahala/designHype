@@ -1,0 +1,64 @@
+.ratings-container{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: 50px 0 ;
+}
+.ratings-container h4{
+    margin: 20px;
+    text-decoration: underline 4px orangered;
+}
+
+.reviews{
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content:center; 
+}
+
+.brand-logo img{
+    width:210px;
+    height: 210px;
+    margin: 15px 20px;
+    object-fit: contain;
+    border: 3px solid orangered;
+    border-radius:19px;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+.brand-logo{
+    /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ 
+
+-moz-animation: brand-logo 14s linear infinite;
+ -webkit-animation: brand-logo 14s linear infinite;
+ animation: brand-logo 14s linear infinite ;
+
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes brand-logo {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+   @-webkit-keyframes brand-logo {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+   @keyframes brand-logo {
+    0%   { 
+    -moz-transform: translateX(100%); /* Browser bug fix */
+    -webkit-transform: translateX(100%); /* Browser bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-400%); /* Browser bug fix */
+    -webkit-transform: translateX(-400%); /* Browser bug fix */
+    transform: translateX(-400%); 
+    }
+   }

@@ -1,0 +1,43 @@
+.founder-container{
+    text-align: center;
+    margin: 50px 20px;
+    padding: 20px;
+    border: 2px solid orangered;
+    border-radius: 19px;
+    background-color: black;
+    color: white;
+    /* background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%); */
+    
+}
+.founder-container h4{
+    font-size:30px;
+    margin: 20px;
+}
+.founder-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    border-radius:19px;
+    
+}
+
+.founder-details img{
+    width: 250px;
+    height: 250px;
+    border: 4px solid orangered;
+    border-radius: 50%;
+    margin:0 20px ;
+}
+
+.founder-title-details{
+    max-width: 400px;
+    margin:0 20px ;
+} 
+
+.founder-title-details p{
+    margin:10px;
+    font-size: 20px;
+    font-weight:600;
+}

@@ -1,0 +1,12 @@
+.partners-container{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin: 50px 20px;
+}
+.partner img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 10px 20px;   
+}
