@@ -22,7 +22,6 @@ function App() {
       <Services />
       <StepsMain />
       <Partners />
-      <Founder />
       <Form />
       <Footer />
     </div>
