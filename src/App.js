@@ -19,9 +19,10 @@ function App() {
       <Navbar />
       <Hero />
       <Ratings />
-      <Services />
+      {/* <Services /> */}
       <StepsMain />
       <Partners />
+      {/* <Founder /> */}
       <Form />
       <Footer />
     </div>
