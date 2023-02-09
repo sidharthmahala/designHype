@@ -4,7 +4,7 @@ import "./Footer.css"
 const Footer = () => {
     return (
         <div className="footer-container">
-            <p className="footer-text">HAMILTON</p>
+            <p className="footer-text">FUTURE</p>
             <p>© 2023 | Hamilton Media. All Rights Reserved</p>
         </div>
     )
