@@ -4,7 +4,7 @@ import './Navbar.css'
 function Navbar() {
   return (
     <div className='navbar-container'>
-        <h1 className='logo'>Hamilton media</h1>
+        <h1 className='logo'>Aurora</h1>
         <button className='nav-btn'>Contact Us</button>
     </div>
   )
