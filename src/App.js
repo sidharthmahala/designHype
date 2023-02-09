@@ -18,8 +18,8 @@ function App() {
       <Topbar />
       <Navbar />
       <Hero />
-      <Ratings />
-      {/* <Services /> */}
+      {/* <Ratings /> */}
+      <Services />
       <StepsMain />
       <Partners />
       {/* <Founder /> */}
