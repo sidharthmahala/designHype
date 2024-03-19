@@ -36,11 +36,18 @@
 }
 .hero-text ul{
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    font-size: 1.8rem;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
     font-weight:600;
+    margin: 1rem;
+}
+ ul.services-list-hero{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    list-style:circle;
+
 }
 .hero-text ul li{
     margin:0 1rem;

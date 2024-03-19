@@ -4,8 +4,8 @@ import "./Footer.css"
 const Footer = () => {
     return (
         <div className="footer-container">
-            <p className="footer-text">FUTURE</p>
-            <p>© 2023 | Hamilton Media. All Rights Reserved</p>
+            <p className="footer-text">HYPE</p>
+            <p>© 2024 | DesignHype. All Rights Reserved</p>
         </div>
     )
 }
