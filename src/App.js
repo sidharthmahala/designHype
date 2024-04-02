@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Topbar from './components/Topbar';
 import Hero from './components/Hero';
-import Services from './components/Services';
+import Services1 from './components/Services1';
 import StepsMain from './StepsMain';
 import Ratings from './components/Ratings';
 import Partners from './components/Partners';
@@ -18,8 +18,8 @@ function App() {
       <Topbar />
       <Navbar />
       <Hero />
-      {/* <Ratings /> */}
-      <Services />
+      <Ratings />
+      <Services1 />
       <StepsMain />
       <Partners />
       {/* <Founder /> */}
