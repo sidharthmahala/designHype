@@ -51,7 +51,7 @@
     font-size: 25px;
 }
 .process-flex{
-    background-image:url("../Assets/userflow.png");
+    background-image:url("../../Assets/userflow.png");
     background-position:left;
   background-repeat:no-repeat;
   background-size:contain;

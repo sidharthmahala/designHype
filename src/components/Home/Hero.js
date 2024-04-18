@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="hero-container">
       <div className="hero-text">
-        <h3>Digital Partner for Businesses</h3>
+        <h3>Digital Partner for Business</h3>
         <ul className='services-list-hero'>
           <li>Marketing & Stretagy</li>
           <li>Graphics Designing</li>
@@ -13,12 +13,12 @@ function Hero() {
         </ul>
         <ul>
           <li>Performance Based</li>
-          <li>Full Transparency</li>
+          <li>Cost Effective</li>
           <li>Data Driven</li>
         </ul>
-        <button className="btn nav-btn">Let's talk 🤙</button>
+        <button className="btn nav-btn">Book A Call 📅</button>
       </div>
-      <img src={require("../Assets/Data-report.png")} className="hero-image" alt="" />
+      <img src={require("../../Assets/Data-report.png")} className="hero-image" alt="" />
     </div>
   )
 }

@@ -7,7 +7,7 @@ function Services() {
             <div className="services-title">
                 <p>Services</p>
             </div>
-            <img src={require("../Assets/smartphone.png")} className="content" alt="" />
+            <img src={require("../../Assets/smartphone.png")} className="content" alt="" />
             <div className="services-catogary">
                 <div className="service-card paid-ads">
                     <h3>01. <span>Paid Ads</span></h3>

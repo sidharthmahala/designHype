@@ -3,28 +3,32 @@
     overflow: hidden;
     text-align: center;
     margin: 50px 0 ;
+    background-color: #ff7c6b;
+
 }
 .ratings-container h4{
     margin: 20px;
-    text-decoration: underline 4px orangered;
 }
 
 .reviews{
-    background-color: black;
     display: flex;
     align-items:center;
     justify-content:center; 
+
 }
 
 .brand-logo img{
-    width:210px;
-    height: 210px;
+    width:100px;
+    height: 100px;
     margin: 15px 20px;
     object-fit: contain;
-    border: 3px solid orangered;
+    /* border: 3px solid orangered; */
     border-radius:19px;
     padding: 5px;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-color: white;
+    box-shadow:rgba(39, 45, 56, 0.25) 0px 0px 21px 0px;
+
 }
 
 .brand-logo{
@@ -62,3 +66,12 @@
     transform: translateX(-400%); 
     }
    }
+
+   @media screen and (max-width: 820px){
+    .brand-logo img{
+        width:100px;
+        height: 100px;
+        margin: 10px 10px;
+    }
+
+}

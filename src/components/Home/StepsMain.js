@@ -1,5 +1,5 @@
 import React from 'react'
-import Steps from './components/Steps'
+import Steps from './components/Home/Steps'
 
 function StepsMain() {
     return (
@@ -12,7 +12,7 @@ function StepsMain() {
                 <div className="process-title">
                     <h4>The process</h4>
                 </div>
-                {/* <img className='process-img' src={require("./Assets/User-flow.png")} alt=""/> */}
+                {/* <img className='process-img' src={require("../../Assets/User-flow.png")} alt=""/> */}
 
                 <div className="process-steps">
                     <Steps num="1" heading="Initial Consultation" text="We'll have a chat to understand your business, goals, and current social media presence. We'll also discuss how we can help and see if we're a good fit to work together." />

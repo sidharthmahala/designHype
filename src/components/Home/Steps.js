@@ -4,7 +4,7 @@ function Steps(props) {
   return (
     <div className="steps-container">
         <h4 className="step-title">
-            {/* <img src={require("../Assets/arrowhead.png")} className="arrowhead" alt="arrow-icon"/> */}
+            {/* <img src={require("../../Assets/arrowhead.png")} className="arrowhead" alt="arrow-icon"/> */}
             0{props.num} - <span className="steps-heading">{props.heading}</span>
         </h4>
         <p className="step-description">{props.text}</p>

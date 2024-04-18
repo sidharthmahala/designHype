@@ -1,5 +1,6 @@
 .partners-container{
     display: flex;
+    flex-direction: row;
     align-items:center;
     justify-content:center;
     margin: 50px 20px;
@@ -10,9 +11,8 @@
     object-fit: contain;
     margin: 10px 20px;   
 }
-@media screen {
-    .partners-container{
-        display: flex;
+@media (max-width: 768px) {
+    .partners-container {
         flex-direction: column;
     }
 }
