@@ -2,8 +2,8 @@ import React from 'react';
 
 import Navbar from '../components/Home/Navbar';
 import Topbar from '../components/Home/Topbar';
- import Hero from '../components/Home/Hero';
- import Ratings from '../components/Home/Ratings';
+import Hero from '../components/Home/Hero';
+import Ratings from '../components/Common/Ratings';
 //import PortfolioSection from '../components/Home/PortfolioSection';
 
 import Services1 from '../components/Home/Services1';
@@ -13,13 +13,32 @@ import Services1 from '../components/Home/Services1';
 // import Form from '../components/Home/Form';
 import Footer from '../components/Home/Footer';
 
+
+const HomeBrandLogos = [
+    { src: require("../Assets/leswine.png"), alt: "Leswine Logo" },
+    { src: require("../Assets/zaini.png"), alt: "Zaini Logo" },
+    { src: require("../Assets/steam.png"), alt: "Steam Logo" },
+    { src: require("../Assets/oderae.png"), alt: "Oderae Logo" },
+    { src: require("../Assets/lumi.png"), alt: "Lumi Logo" },
+    { src: require("../Assets/leswine.png"), alt: "Leswine Logo" },
+    { src: require("../Assets/zaini.png"), alt: "Zaini Logo" },
+    { src: require("../Assets/steam.png"), alt: "Steam Logo" },
+    { src: require("../Assets/oderae.png"), alt: "Oderae Logo" },
+    { src: require("../Assets/lumi.png"), alt: "Lumi Logo" },
+    { src: require("../Assets/leswine.png"), alt: "Leswine Logo" },
+    { src: require("../Assets/zaini.png"), alt: "Zaini Logo" },
+    { src: require("../Assets/steam.png"), alt: "Steam Logo" },
+    { src: require("../Assets/oderae.png"), alt: "Oderae Logo" },
+    { src: require("../Assets/lumi.png"), alt: "Lumi Logo" }, 
+  ];
+
 function Home() {
     return (
         <div>
             <Topbar />
              <Navbar />
             <Hero />
-            <Ratings />
+            <Ratings brandLogos={HomeBrandLogos} />
             {/* <PortfolioSection /> */}
             <Services1 />
             {/* <StepsMain /> */}

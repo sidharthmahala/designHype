@@ -5,12 +5,7 @@ function Hero() {
   return (
     <div className="hero-container">
       <div className="hero-text">
-        <h3>Digital Partner for Business</h3>
-        <ul className='services-list-hero'>
-          <li>Marketing & Stretagy</li>
-          <li>Graphics Designing</li>
-          <li>Video Production & Editing</li>
-        </ul>
+        <h3>Trusted Digital Partner for Business</h3>
         <ul>
           <li>Performance Based</li>
           <li>Cost Effective</li>
