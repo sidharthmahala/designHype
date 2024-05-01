@@ -5,13 +5,13 @@
     margin: 10px;   
     overflow: hidden;
     min-height: 90vh;
-    border: 1px solid rebeccapurple;
+    border: none;
 }
 
 .services-title p{
     font-size:45px;
-    color: orangered;
-    background-color: black;
+    color: transparent;
+    /* background-color: #fff; */
     -webkit-text-stroke: 2px orangered;
     padding: 5px;
     margin-top: 250px; 
@@ -42,6 +42,7 @@
     font-size: 18px;
     max-width: 250px;
     min-height: 350px;
+    background-color: #fff;
 
 }
 .service-card img{

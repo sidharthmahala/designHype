@@ -1,0 +1,83 @@
+.hero-design {
+  background-color: #f07547;
+  background-color: #fff;
+  background-color: transparent;
+  color: #000;
+  text-align: center;
+  padding: 30px;
+}
+
+.hero-content-design {
+  margin: 10px auto;
+  width: 50%;
+}
+.hero-content-design ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+.hero-content-design ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #868686;
+}
+.hero-content-design h1 {
+  margin: 0 15px 15px 0;
+  font-size: 48px;
+}
+
+.hero-content-design p {
+  margin: 15px;
+  font-size: 16px;
+}
+
+.hero-button-design {
+  background-color: #83e029;
+  color: #222;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  box-shadow: 0 0 10px #0000001c;
+}
+.hero-button-design:hover {
+  transform: translateY(-2px);
+}
+
+.spots-available {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.spots-available-text {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.led-indicator {
+  margin: 4px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: orangered;
+  border-radius: 50%; /* Creates a circular shape */
+  box-shadow: 0 0 10px orangered; /* Adds a subtle glow */
+  animation: flash 01s infinite alternate;
+}
+
+@keyframes flash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.4;
+  }
+}

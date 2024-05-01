@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Home/Navbar';
-import Topbar from '../components/Home/Topbar';
+import Topbar from '../components/Common/Topbar';
 import Hero from '../components/Home/Hero';
 import Ratings from '../components/Common/Ratings';
 import ServiceSchool from '../components/Education/ServiceSchool';

@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="hero-container">
       <div className="hero-text">
-        <h3>Trusted Digital Partner for Business</h3>
+        <h3>Trusted Digital Partner for Your Business</h3>
         <ul>
           <li>Performance Based</li>
           <li>Cost Effective</li>

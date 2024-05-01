@@ -9,7 +9,7 @@ const servicesData = [
     { title: "Graphics Designing", description: "Create compelling visuals for educational materials, presentations, and social media.", icon: faChartPie },
     { title: "Video Production & Editing", description: "Bring educational concepts to life with engaging videos and animations.", icon: faVideo },
     { title: "AI Automation", description: "Streamline administrative tasks within educational organizations using AI-powered tools.", icon: faRobot },
-    { title: "Website and App Development", description: "We address your school's unique challenges with custom web and app solutions designed to improve student engagement, simplify parent-teacher communication, and streamline school management.", icon: faEarth }
+    { title: "Website and App Development", description: "We address your school's unique challenges with custom web and app solutions designed to improve student engagement.", icon: faEarth }
 ];
 
 function ServiceSchool() {
