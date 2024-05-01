@@ -5,23 +5,25 @@
   justify-content: center;
   margin: 10px 20px;
 }
-
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .logo {
   font-optical-sizing: auto;
   font-style: normal;
   color: orangered;
   font-size: 25px;
   font-weight: 600;
+  background-color: black;
+  padding:0px 3px;
 }
 .logo-icon{
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-}
-.logo-icon svg{
-  background-color: rgb(60, 255, 0);
+  width: 30px;
+  height: 30px;
+  padding: 1px 2px 1px 3px;
   background-color: orangered;
-  padding: 2px;
 }
 
 .nav-btn {
