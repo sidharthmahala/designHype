@@ -1,21 +1,19 @@
 .hero-design {
-  background-color: #f07547;
-  background-color: #fff;
-  background-color: transparent;
   color: #000;
   text-align: center;
   padding: 30px;
+  width:100%;
 }
 
 .hero-content-design {
   margin: 10px auto;
-  width: 50%;
 }
 .hero-content-design ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 4px 0;
+  width:100%;
 }
 .hero-content-design ul li {
   list-style: none;

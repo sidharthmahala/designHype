@@ -1,35 +1,38 @@
-*{
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  
 }
-body{
-    margin: 0 auto;
-    max-width: 1400px;
+body {
+  margin: 0 auto;
+  background-color: antiquewhite;
+  /* background-color: #F1EDEA; */
+  max-width: 1400px;
 }
 
 /* Target the scrollbar element (works on WebKit browsers) */
 ::-webkit-scrollbar {
-    width: 8px; /* Adjust the width of the scrollbar */
-    background-color: transparent; /* Set transparent background */
+  width: 8px; /* Adjust the width of the scrollbar */
+  background-color: transparent; /* Set transparent background */
 }
-  
-  /* Target the scrollbar track */
-  ::-webkit-scrollbar-track {
-    background-color: transparent; /* Inherit transparent background */
-  }
-  
-  /* Target the scrollbar thumb */
-  ::-webkit-scrollbar-thumb {
-    background-color: #c0392b; /* Set orangered color for the thumb */
-    border-radius: 5px; /* Add rounded corners for a smoother look */
-  }
-  
-  /* Optional: Style the scrollbar arrows (up and down) */
-  ::-webkit-scrollbar-button {
-    display: none; /* Hide the arrows by default */
-  }
-  
-  /* Target the scrollbar when hovered (optional) */
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: orangered; /* Darken the orangered on hover */
-  }
-  
+
+/* Target the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Inherit transparent background */
+}
+
+/* Target the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #c0392b; /* Set orangered color for the thumb */
+  border-radius: 5px; /* Add rounded corners for a smoother look */
+}
+
+/* Optional: Style the scrollbar arrows (up and down) */
+::-webkit-scrollbar-button {
+  display: none; /* Hide the arrows by default */
+}
+
+/* Target the scrollbar when hovered (optional) */
+::-webkit-scrollbar-thumb:hover {
+  background-color: orangered; /* Darken the orangered on hover */
+}

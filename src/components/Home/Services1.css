@@ -1,10 +1,10 @@
 .services-container{
+    min-height: 80vh;
     display: flex;
     align-self: center;
     justify-content: center;
     margin: 10px;   
     overflow: hidden;
-    min-height: 90vh;
     border: none;
 }
 
@@ -14,7 +14,7 @@
     /* background-color: #fff; */
     -webkit-text-stroke: 2px orangered;
     padding: 5px;
-    margin-top: 250px; 
+    margin-top: 170px; 
     margin-left: -70px ;
     
     -ms-transform: rotate(-90deg);
@@ -26,6 +26,7 @@
     align-items: center;
     justify-content: center;
     margin:auto;
+    flex-wrap: wrap;
     
 }
 
@@ -33,7 +34,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     margin:6px;
     padding: 4px;
     border: 2px solid black;
@@ -41,7 +42,7 @@
     text-align: center;
     font-size: 18px;
     max-width: 250px;
-    min-height: 350px;
+    min-height: 300px;
     background-color: #fff;
 
 }

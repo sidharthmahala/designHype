@@ -1,0 +1,32 @@
+.hh-container{
+    box-sizing: border-box;
+    margin: 10px 40px;
+    padding: 20px;
+    background-color: #a9e6b3;
+    display: flex;
+    align-items: center;
+}
+
+.big-box{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.small-boxes{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 0, 98);
+    margin: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self:center;
+    justify-content: center;
+}
+
+.small-box{
+    width: 190px;
+    height: 195px;
+    border: 1px solid black;
+    margin: 0 5px;
+}

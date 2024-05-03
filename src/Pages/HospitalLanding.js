@@ -12,6 +12,7 @@ import Services1 from '../components/Home/Services1';
  //import Founder from './components/Founder';
 // import Form from '../components/Home/Form';
 import Footer from '../components/Home/Footer';
+import HeroHospital from '../components/Hospitals/HeroHospital';
 
 
 const HomeBrandLogos = [
@@ -44,6 +45,7 @@ function Home() {
             {/* <StepsMain /> */}
             <Partners />
             {/* <Form /> */}
+            <HeroHospital />
             <Footer />
         </div>
     )
