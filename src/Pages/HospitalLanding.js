@@ -33,6 +33,31 @@ const HomeBrandLogos = [
     { src: require("../Assets/lumi.png"), alt: "Lumi Logo" }, 
   ];
 
+  const heroData = {
+    title: 'Website Development',
+      description: 'Get a modern and user-friendly website that attracts new customers.',
+      icon: 'fas fa-code', 
+      subServices: [
+        { title: 'UI/UX Design', description: '...', icon: 'fas fa-paint-brush' },
+        { title: 'Content Creation', description: '...', icon: 'fas fa-pencil-alt' },
+        { title: 'SEO Optimization', description: '...', icon: 'fas fa-search' },
+        { title: 'Mobile Responsiveness', description: '...', icon: 'fas fa-mobile' }
+      ]
+  };
+
+  const heroData2 = {
+    title: 'Website Development',
+      description: 'Get a modern and user-friendly website that attracts new customers.',
+      icon: 'fas fa-code', 
+      subServices: [
+        { title: 'UI/UX Design', description: '...', icon: 'fas fa-paint-brush' },
+        { title: 'Content Creation', description: '...', icon: 'fas fa-pencil-alt' },
+        { title: 'SEO Optimization', description: '...', icon: 'fas fa-search' },
+        { title: 'Mobile Responsiveness', description: '...', icon: 'fas fa-mobile' }
+      ]
+  };
+  
+
 function Home() {
     return (
         <div>
@@ -45,7 +70,8 @@ function Home() {
             {/* <StepsMain /> */}
             <Partners />
             {/* <Form /> */}
-            <HeroHospital />
+            <HeroHospital {...heroData} />
+            <HeroHospital {...heroData2} />
             <Footer />
         </div>
     )

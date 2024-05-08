@@ -1,32 +1,41 @@
 .hh-container{
     box-sizing: border-box;
-    margin: 10px 40px;
-    padding: 20px;
     background-color: #a9e6b3;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
 
 .big-box{
-    width: 400px;
-    height: 400px;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 500px;
+    height: 500px;
+    background-color:oldlace;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .small-boxes{
-    width: 400px;
-    height: 400px;
-    background-color: rgb(255, 0, 98);
+    width: 500px;
+    height: 500px;
     margin: 0 5px;
     display: flex;
     flex-wrap: wrap;
     align-self:center;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .small-box{
-    width: 190px;
-    height: 195px;
-    border: 1px solid black;
-    margin: 0 5px;
+    width: 245px;
+    height: 245px;
+    background-color:white;
+    margin: auto;
+    padding: 2px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
 }
