@@ -1,15 +1,11 @@
-*{
-  box-sizing: border-box;
-  overflow: hidden;
-}
 .dl-container {
   height: 100vh;
-  background-color: rgb(0, 0, 0);
-  padding: 10px;
+  background-color: #4e4646;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 20px 10px;
 }
 
 .dl-left {
@@ -20,17 +16,104 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.dl-right {
+.dl-right-container {
   width: 60%;
   height: 100%;
   margin-left: 10px;
-  border: 4px solid rgb(132, 0, 255);
+  border: 2px solid black;
+  border-radius: 18px;
+  background-color:  #00ffcc;
+  background-color:  #25caa9;
+  /* background-image: url(../../Assets/grid1-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;*/
+  overflow: hidden; 
+}
+.dl-right {
+  height: 100%;
+  width: 100%;
+  color: #e6e6e6;
+  color: #000;
+  font-size: 70px;
+  text-align: center;
+  backdrop-filter: blur(2px);
+}
+
+.dl-right img {
+  width: 100px;
+  height: 100px;
+  background-color: #e6e6e6;
+  opacity: 0.2;
   border-radius: 10px;
+  padding: 5px;
 }
 
 .dl-left-top {
   height: 40%;
   margin-bottom: 10px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.dl-lt-top {
+  height: 40%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dl-lt-bot {
+  background-color: #ff009d;
+  background-color: #7e30bd;
+  background-color: #8c00ff;
+  background-color: #9F26FF;
+  color: #fff;
+  height: 60%;
+  padding: 10px 10px 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.dl-lt-bot p {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+.dl-ltt-left {
+  background-color: #ff4500;
+  /* background-color: #aa2d00; */
+   /*orangered */
+  width: 20%;
+  height: 100%;
+  margin-right: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dl-ltt-left svg {
+  width: 75px;
+  height: 75px;
+}
+.dl-ltt-right {
+  width: 80%;
+  background-color: #36fe5d;
+  background-color: #FF90E7;
+  background-color: #13af71;
+  height: 100%;
+  margin-left: 10px;
   border-radius: 10px;
 }
 
@@ -43,42 +126,90 @@
   justify-content: center;
 }
 
-.dl-left-bot-left{
-  background-color: aqua;
+.dl-left-bot-left {
+  background-color: orangered;
+  background-color: #aa2d00;
   width: 50%;
   height: 100%;
-  margin-right:10px;
+  margin-right: 10px;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* filter: grayscale(0.2); */
 }
-
-.dl-left-bot-right{
+.dl-left-bot-left img {
+  width: 100%;
+  height: 100%;
+}
+.dl-left-bot-right {
   width: 50%;
   height: 100%;
-  margin-left:10px;
+  margin-left: 10px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
-.dl-lbr-top{
+.dl-lbr-top {
   height: 40%;
   width: 100%;
   background-color: yellow;
-  margin-bottom:10px;
-  border-radius:10px;
-}
-
-.dl-lbr-bot1{
-  height: 57%;
-  width: 100%;
-  margin-top:10px;
-  border-radius:10px;
-  background-color: rgb(255, 0, 179);
-}
-
-
-.dl-logo{
-  font-size: 40px;
-  font-weight: 600;
+  background-color: #FFDC26;
+  background-color: #dabb20;
+  
+  margin-bottom: 10px;
+  border-radius: 10px;
   padding: 10px;
-  background-color: rgb(43, 255, 0);
-  display: inline-block;
-  margin:0 10px 10px 0;
+}
+.dl-lbr-top-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  height: 100%;
+}
+
+.dl-lbr-top-content p {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.dl-lbr-bot {
+  height: 60%;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #0026ff;
+  background-color: #0251d1;
+  color: #fff;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dl-logo {
+  font-size: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.dl-icons-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
 }
