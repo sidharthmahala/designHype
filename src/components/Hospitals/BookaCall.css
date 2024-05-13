@@ -1,0 +1,25 @@
+.bc-container {
+  width: 90%;
+  height: 400px;
+  background-color: #fff;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: rgba(39, 45, 56, 0.25) 0px 0px 21px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bc-container h3 {
+  font-size: 50px;
+}
+
+.bc-container p {
+  font-size: 24px;
+}
+
+.bc-container a{
+    margin: 10px;
+}
