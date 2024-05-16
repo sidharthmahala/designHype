@@ -1,30 +1,34 @@
 .dp-container {
-  height: 90vh;
+  position: relative;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 10px;
+  margin: 20px;
   padding: 20px;
-  background-color: #fff;
+  background-color: #47484b;
   border-radius: 20px;
 }
 .dp-subscription {
-  background-color: white;
+  position: sticky;
+  top: 100px;
   text-align: center;
-  margin: 10px;
+  z-index: 0;
 }
 
 .dp-subscription h2 {
-  color: #000000;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px;
+  color: #000;
+  /* -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px; */
   /* text-shadow: -1px -1px 0 #ff0000, 1px -1px 0 #ff0000, -1px 1px 0 #ff0000, 1px 1px 0 #ff0000; */
   font-size: 90px;
+  font-weight: 800;
 }
 .dp-subscription p {
-  font-size: 28px;
-  font-weight: 400px;
+  
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .dp-sub-container {
@@ -33,12 +37,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
 }
 .dp-left {
-  background-color: #ff4500;
+  background-color: #000000;
+  color: #f0eeee;
   border-radius: 10px;
-  min-height: 350px;
-  margin: 0 10px;
+  min-height: 400px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,7 +52,7 @@
 }
 .dp-left h3{
     font-size: 24px;
-    padding: 5px;
+    padding:5px;
     margin: 10px;
 }
 .dp-left-list{
@@ -62,27 +68,128 @@
 }
 .dp-mid {
   background-color: #000000;
-  /* background-color: #27DAB7; */
-  color: #c400c4;
+  background-color: #9F26FF;
+  color: #fff;
   width: 25%;
-  min-height: 350px;
-  margin: 0 10px;
+  min-width: 300px;
+  min-height: 400px;
+  margin: 10px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
+.dp-mid-sub-btn{
+  text-align: center;
+}
+
+.dp-mid-sub-btn h3{
+
+  font-size: 30px;
+  margin: 5px;
+
+}
+
 .dp-right {
   background-color: #000000;
-  background-color: #27DAB7;
-  color: #fff;
+  background-color: #008a6e;
+  background-color: #52D899;
   width: 25%;
-  min-height: 350px;
-  margin: 0 10px;
+  min-width: 300px;
+  min-height: 400px;
+  margin: 10px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+.dp-mid a, .dp-right a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+
+.dp-spots-available-text {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dp-sub-btn{
+  padding:15px 40px;
+  color: #000;
+}
+.dp-led-indicator {
+  margin: 4px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%; /* Creates a circular shape */
+  box-shadow: 0 0 10px #ffffff, 0 0 0 0 #ffffff00; /* Adds a subtle glow and initial shadow */
+  animation: rippleFlash 1s infinite;
+}
+
+@keyframes rippleFlash {
+  0% {
+    box-shadow: 0 0 10px #ffffff, 0 0 0 0 #ffffff00; /* Initial and final state */
+    opacity: 1; /* Initial and final opacity */
+  }
+  50% {
+    box-shadow: 0 0 10px #ffffff, 0 0 0 8px #ffffff66; /* Max shadow at midpoint */
+    opacity: 0.4; /* Opacity at midpoint */
+  }
+  100% {
+    box-shadow: 0 0 10px #ffffff, 0 0 0 1px #ffffff00; /* Initial and final state */
+    opacity: 1; /* Initial and final opacity */
+  }
+}
+
+
+/* For tablets */
+@media only screen and (max-width: 768px) {
+  .dp-container {
+    margin: 10px;
+    padding: 10px;
+  }
+  .dp-subscription h2 {
+    font-size: 60px;
+  }
+  /* Adjust other styles as needed */
+}
+
+/* For mobile */
+@media only screen and (max-width: 480px) {
+  .dp-container {
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .dp-subscription h2 {
+    font-size: 40px;
+    
+  }
+  .dp-subscription p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .dp-sub-container {
+    flex-direction: column;
+  }
+.dp-left, .dp-mid, .dp-right{
+  font-size: 18px;
+}
+
+.dp-mid, .dp-right{
+  min-height: 200px;
+}
+.dp-left-list ul li{
+  font-size: 16px;
+}
 }

@@ -1,24 +1,36 @@
 import React from 'react';
 
-//import DesignLanding from '../components/DesignSubs/DesignLanding';
-//import DlSection from '../components/DesignSubs/DlSection';
-// import DesignStripe from '../components/DesignSubs/DesignStripe';
+// import DesignLanding from '../components/DesignSubs/DesignLanding';
+// import DlSection from '../components/DesignSubs/DlSection';
+
 import HeroDesign from '../components/DesignSubs/HeroDesign';
 import Navbar from '../components/Home/Navbar'
 import DesignPricing from '../components/DesignSubs/DesignPricing';
+import DesignFSection from '../components/DesignSubs/DesignFSection'
+import HorizontalScrollImages from '../components/DesignSubs/HorizontalScrollImages';
+
+const images = [
+    '../../Assets/Data-report.png',
+    '../../Assets/webdesign.png',
+    '../../Assets/userflow.png',
+    // Add more image URLs as needed
+  ];
 
 
-function Home() {
+function Design() {
     return (
         <div>
             <Navbar />
             <HeroDesign />
             {/* <DesignLanding /> */}
-            {/* <DesignStripe/> */}
             {/* <DlSection /> */}
+            <DesignFSection />
             <DesignPricing />
+            <DesignFSection />
+            <HorizontalScrollImages images={images} scrollSpeed={2} />
+            
         </div>
     )
 }
 
-export default Home;
+export default Design;

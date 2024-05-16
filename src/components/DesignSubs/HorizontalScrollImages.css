@@ -1,0 +1,31 @@
+/* HorizontalScrollImages.css */
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .scroll-content {
+    display: flex;
+    animation: scroll linear infinite;
+  }
+  
+  .scroll-item {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust width of each image */
+    height: 200px; /* Adjust height of each image */
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px; /* Adjust spacing between images */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

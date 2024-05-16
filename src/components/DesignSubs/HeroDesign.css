@@ -1,17 +1,16 @@
 .hero-design {
   color: #000;
-  height: 90vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;  
+  justify-content: space-between;
+  position: relative;
 }
-
 .hero-content-design {
   text-align: center;
-  margin:0 10px 10px 10px;
+  margin: 0 20px 20px;
   padding: 30px;
   background-color: #fff;
-  border-radius:20px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -22,14 +21,32 @@
   align-items: center;
   justify-content: space-between;
   padding: 4px 0;
-  width:100%;
+  width: 100%;
 }
 .hero-content-design ul li {
+  height: 50px;
   list-style: none;
   font-size: 16px;
   font-weight: 600;
-  color: #868686;
+  color: #afaaaa;
 }
+.bg-star-1, .bg-star-2{
+  width:80px;
+  height: 80px;
+}
+
+.bg-star-1{
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.bg-star-2{
+  position: absolute;
+  bottom: 150px;
+  right: 100px;
+}
+
 .hero-content-design h1 {
   margin: 0 15px 15px 0;
   font-size: 48px;
