@@ -1,4 +1,5 @@
 .hero-design {
+  height: 90vh;
   color: #000;
   display: flex;
   flex-direction: column;
@@ -8,6 +9,7 @@
 .hero-content-design {
   text-align: center;
   margin: 0 20px 20px;
+  
   padding: 30px;
   background-color: #fff;
   border-radius: 20px;
@@ -16,12 +18,27 @@
   justify-content: space-around;
   height: 100%;
 }
+.hero-content-design::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: 
+      radial-gradient(circle, rgba(0, 0, 0, 0.02) 1%, transparent 1%) 0 0 / 3px 3px, 
+      radial-gradient(circle, rgba(0, 0, 0, 0.02) 1%, transparent 1%) 1.5px 1.5px / 3px 3px;
+  filter: contrast(200%) brightness(100%);
+}
+
 .hero-content-design ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 4px 0;
   width: 100%;
+  z-index: 10;
 }
 .hero-content-design ul li {
   height: 50px;
@@ -33,6 +50,7 @@
 .bg-star-1, .bg-star-2{
   width:80px;
   height: 80px;
+  z-index: 1;
 }
 
 .bg-star-1{
@@ -50,11 +68,13 @@
 .hero-content-design h1 {
   margin: 0 15px 15px 0;
   font-size: 48px;
+  z-index: 10;
 }
 
 .hero-content-design p {
   margin: 15px;
   font-size: 16px;
+  z-index: 10;
 }
 
 .hero-button-design {
@@ -69,6 +89,7 @@
   cursor: pointer;
   transition: color 0.3s ease-in-out;
   box-shadow: 0 0 10px #0000001c;
+  z-index: 10;
 }
 .hero-button-design:hover {
   transform: translateY(-2px);

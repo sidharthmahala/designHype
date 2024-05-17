@@ -8,6 +8,9 @@
   margin: 20px;
   padding: 20px;
   background-color: #47484b;
+  background-image: url(../../Assets/dp-bg-noise1.png);
+  background-position: center;
+  background-size: cover;
   border-radius: 20px;
 }
 .dp-subscription {
@@ -41,7 +44,8 @@
 }
 .dp-left {
   background-color: #000000;
-  color: #f0eeee;
+  background-color: #287AF5;
+  background-color: #E2F759;
   border-radius: 10px;
   min-height: 400px;
   margin: 10px;
@@ -67,7 +71,6 @@
     font-size: 20px;
 }
 .dp-mid {
-  background-color: #000000;
   background-color: #9F26FF;
   color: #fff;
   width: 25%;
@@ -92,8 +95,6 @@
 }
 
 .dp-right {
-  background-color: #000000;
-  background-color: #008a6e;
   background-color: #52D899;
   width: 25%;
   min-width: 300px;
@@ -104,6 +105,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
 }
 .dp-mid a, .dp-right a{
   text-decoration: none;
@@ -150,17 +152,34 @@
 
 
 /* For tablets */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .dp-container {
     margin: 10px;
     padding: 10px;
+    height: auto;
   }
   .dp-subscription h2 {
     font-size: 60px;
   }
+  .dp-sub-container{
+    flex-wrap: wrap;
+  }
+  .dp-mid,.dp-right, .dp-left{
+    min-width: 300px;
+    min-height: 300px;
+  }
   /* Adjust other styles as needed */
 }
-
+@media only screen and (max-width: 700px) {
+  .dp-sub-container{
+    flex-wrap:nowrap;
+    flex-direction: column;
+  }
+  .dp-mid,.dp-right, .dp-left{
+    width: 100%;
+    min-height: 200px;
+  }
+}
 /* For mobile */
 @media only screen and (max-width: 480px) {
   .dp-container {
