@@ -45,10 +45,11 @@
 .dp-left {
   background-color: #000000;
   background-color: #287AF5;
-  background-color: #E2F759;
+  background-color: #e2f759;
   border-radius: 10px;
   min-height: 400px;
   margin: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,6 +78,7 @@
   min-width: 300px;
   min-height: 400px;
   margin: 10px;
+  padding: 10px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -122,7 +124,8 @@
 }
 .dp-sub-btn{
   padding:15px 40px;
-  color: #000;
+  color: #fff;
+  background-color: #000;
 }
 .dp-led-indicator {
   margin: 4px;
@@ -177,7 +180,6 @@
   }
   .dp-mid,.dp-right, .dp-left{
     width: 100%;
-    min-height: 200px;
   }
 }
 /* For mobile */
@@ -204,10 +206,9 @@
   font-size: 18px;
 }
 
-.dp-mid, .dp-right{
-  min-height: 200px;
-}
-.dp-left-list ul li{
-  font-size: 16px;
+.dp-left-list{
+ display: block;
+ text-align: left;
+ 
 }
 }
