@@ -124,10 +124,11 @@
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    min-height: 500px;
   }
 
   .hero-content-design h1 {
-    font-size: 32px; /* Reduce font size for readability */
+    font-size: 30px; /* Reduce font size for readability */
   }
 
   .hero-content-design p {

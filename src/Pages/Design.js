@@ -7,6 +7,7 @@ import HeroDesign from '../components/DesignSubs/HeroDesign';
 import Navbar from '../components/Home/Navbar'
 import DesignPricing from '../components/DesignSubs/DesignPricing';
 import DesignFSection from '../components/DesignSubs/DesignFSection'
+import DesignFaqs from '../components/DesignSubs/DesignFaqs';
 
 function Design() {
     return (
@@ -17,7 +18,7 @@ function Design() {
             {/* <DlSection /> */}
             <DesignFSection />
             <DesignPricing />
-            <DesignFSection />
+            <DesignFaqs />
         </div>
     )
 }
