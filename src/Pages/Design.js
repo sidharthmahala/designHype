@@ -8,6 +8,7 @@ import Navbar from '../components/Home/Navbar'
 import DesignPricing from '../components/DesignSubs/DesignPricing';
 import DesignFSection from '../components/DesignSubs/DesignFSection'
 import DesignFaqs from '../components/DesignSubs/DesignFaqs';
+import ScopeOfWork from '../components/DesignSubs/ScopeOfWork';
 
 function Design() {
     return (
@@ -17,8 +18,10 @@ function Design() {
             {/* <DesignLanding /> */}
             {/* <DlSection /> */}
             <DesignFSection />
+            <ScopeOfWork />
             <DesignPricing />
             <DesignFaqs />
+           
         </div>
     )
 }
