@@ -18,11 +18,11 @@ const HeroDesign = () => {
           <div className='spots-available-text'><span class="led-indicator"></span>4 Spots Available</div>
           {/* <img src={require('../../Assets/bg-sta.png')} className="bg-star-2" alt=""/> */}
         </div>
-        <ul>
+        {/* <ul>
           <li>Elegant</li>
           <li>Crisp</li>
           <li>Smart</li>
-        </ul>
+        </ul> */}
       </div>
       <DesignStripe />
     </section>

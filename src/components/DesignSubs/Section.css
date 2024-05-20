@@ -1,0 +1,8 @@
+.section-container{
+    height: 100vh;
+    background-image: url(../../Assets/Topbg.png);
+    background-size: contain;
+    background-position: center;
+    margin: 20px;
+    border-radius: 20px;
+}
