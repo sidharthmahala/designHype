@@ -1,0 +1,21 @@
+.contact-container{
+    background-color: #ff4500;
+    min-height: 300px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-container a{
+    padding: 10px 30px;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
