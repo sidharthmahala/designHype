@@ -6,8 +6,6 @@
 body {
   margin: 0 auto;
   background-color: antiquewhite;
-  /* background-color: #F1EDEA; */
-  /* background-color: #f7f4f3; */
   background-image: url(./Assets/dp-bg-noise-hero.png);
   max-width: 1400px;
 }

@@ -3,10 +3,11 @@ import './DesignPricing.css'
 
 function DesignPricing() {
 
-    const calendarLink = 'https://calendly.com/sidharthmahala/meeting-with-sidharth-india';
+    // const calendarLink = 'https://calendly.com/sidharthmahala/meeting-with-sidharth-india';
+    const calendarLink = 'https://airtable.com/appt852vx1MkACJdY/shrKZDq15GKCe4oX8';
 
     return (
-        <div className='dp-container'>
+        <div className='dp-container' id='pricing'>
             <div className='dp-subscription'>
                 <h2>SUBSCRIPTION</h2>
                 <p>Business-driving design solutions</p>
@@ -42,7 +43,7 @@ function DesignPricing() {
                 </div>
                 <div className='dp-right'>
                     <div className='dp-mid-sub-btn'>
-                        <h3>$497 Per Month</h3>
+                        <h3>$467 Per Month</h3>
                         <p>Billed Every Month</p>
                     </div>
                     <div className='dp-mid-sub-btn'>

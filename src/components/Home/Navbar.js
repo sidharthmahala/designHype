@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './Navbar.css'
 
 function Navbar() {
@@ -12,9 +13,13 @@ function Navbar() {
         <p className='logo'>DesignHype</p>
       </div>
       <div className='nav-links'>
-        <div>Pricing</div>
-        <div>Work</div>
-        <button className='nav-btn'>Contact Us</button>
+        <a href="#pricing"> Pricing</a>
+        <a href="#work">How It Works</a>
+        <a href="#faqs">FAQs</a>
+        <a href='https://airtable.com/appt852vx1MkACJdY/shrgUg4JQYsG6LDJM' target="_blank" rel="noopener noreferrer">
+          <button className='nav-btn'>Contact Us</button>
+        </a>
+
       </div>
     </div>
   )

@@ -9,13 +9,13 @@ function ContactUs() {
             <h1>Contact Us</h1>
             <p>Click on the below given button to fill out the Form on Airtable.</p>
             <a href={airtable_link} className="dp-book-call" target="_blank" rel="noopener noreferrer">Contact Us</a>
-            <div>
+            {/* <div>
                 <h3>Office Address</h3>
                 <p>Signature Twoer, <br />
                 lalkothi, Jaipur Rajasthan 302005 <br/>
                 India
                 </p>
-            </div>
+            </div> */}
 
 
         </div>

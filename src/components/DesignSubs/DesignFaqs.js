@@ -50,7 +50,7 @@ const DesignFaqs = () => {
     };
 
     return (
-        <div className="faq-container">
+        <div className="faq-container" id='faqs'>
             <h2>Frequently Asked Questions</h2>
             {faqs.map((faq, index) => (
                 <div key={index} className={`faq-item ${isOpen[index] ? 'open' : ''}`}>

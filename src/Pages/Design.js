@@ -11,6 +11,7 @@ import DesignFaqs from '../components/DesignSubs/DesignFaqs';
 import ScopeOfWork from '../components/DesignSubs/ScopeOfWork';
 import Section from '../components/DesignSubs/Section';
 import DesignFooter from '../components/DesignSubs/DesignFooter';
+import DesignProcess from '../components/DesignSubs/DesignProcess';
 
 
 function Design() {
@@ -21,6 +22,7 @@ function Design() {
             {/* <DesignLanding /> */}
             {/* <DlSection /> */}
             <DesignFSection />
+            <DesignProcess />
             <ScopeOfWork />
             <Section />
             <DesignPricing />

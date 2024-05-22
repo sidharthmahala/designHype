@@ -4,7 +4,7 @@ import './Section.css'
 
 function Section(){
     return (
-        <div className='section-container'>
+        <div className='section-container' id='work'>
 
         </div>
     )

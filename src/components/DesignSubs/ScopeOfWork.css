@@ -1,62 +1,72 @@
 .scope-container {
-    margin: 20px;
-    padding: 30px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-  .scope-container h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-    text-align: center;
-  }
+.scope-container h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
 
-  .scope-list {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
+.scope-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
-  .scope-item {
-    font-size: 16px;
-    color: #fff;
+.scope-item {
+  font-size: 16px;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  /* background-color: #000; */
+}
+
+/* .scope-item:last-child {
+    border-bottom: none;
+  } */
+.scope-item:nth-child(even) {
+  background-color: #9f26ff;
+  color: #fff;
+}
+
+.scope-item:nth-child(odd) {
+  background-color: #ff4500;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .scope-container {
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #000000;
-    /* background-color: #000; */
+    height: auto;
   }
-
-  /* .scope-item:last-child {
-    border-bottom: none;
-  } */
-   .scope-item:nth-child(even){
-    background-color: #9F26FF;
-    color: #fff;
+  .scope-container h2 {
+    margin: 10px;
   }
-
-  .scope-item:nth-child(odd){
-    background-color: #ff4500;
-    color: #000;
+  .scope-list {
+    margin: 10px;
   }
-
-  @media screen and (max-width: 768px){
-    .scope-container {
-        margin: 10px;
-        padding: 20px;
-        border-radius: 10px;
-      }
-    
-    .scope-item {
-        font-size: 14px;
-        font-weight: 400;
-        padding: 5px;
-        margin: 5px;
-        border-radius:5px;
-      }
+  .scope-item {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
   }
+}

@@ -19,7 +19,7 @@ function DesignFooter() {
                 </div> */}
             </div>
             <div className="df-bottom">
-                <p>&copy; 2024 Design Subscription Agency. All rights reserved.</p>
+                <p>&copy; 2024 DesignHype. All rights reserved.</p>
             </div>
         </div>
     )

@@ -42,18 +42,21 @@
     font-size: 1em;
     color: #666;
   }
-  
 
-@media (max-width: 1024px) {
-    .design-item {
-        flex: 1 1 45%;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 780px) {
     .design-container{
       margin:10px;
       padding: 10px;
       border-radius: 10px;
     }
+}
+
+@media (max-width: 720px) {
+  .design-item{
+    font-size: 12px;
+    flex: 1 1 45%;
+    max-width: 45%;
+    margin: 10px 0;
+  
+  }
 }
