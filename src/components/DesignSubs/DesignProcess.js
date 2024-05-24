@@ -3,7 +3,7 @@ import './DesignProcess.css';
 
 function DesignProcess() {
   return (
-    <div className="dp-how-it-works">
+    <div className="dp-how-it-works" id='work'>
       <h2>How It Works</h2>
       <div className="dp-steps">
         <div className="dp-step">
