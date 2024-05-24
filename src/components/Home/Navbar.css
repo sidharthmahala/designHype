@@ -92,10 +92,8 @@
     font-size: 20px;
   }
 
-  .nav-links {
-    min-width: none;
-  }
-  .nav-links a{
+  
+  .item-links{
     display: none;
   }
 .nav-btn{

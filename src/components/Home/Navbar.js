@@ -13,9 +13,9 @@ function Navbar() {
         <p className='logo'>DesignHype</p>
       </div>
       <div className='nav-links'>
-        <a href="#pricing"> Pricing</a>
-        <a href="#work">How It Works</a>
-        <a href="#faqs">FAQs</a>
+        <a href="#pricing" className='item-links'> Pricing</a>
+        <a href="#work" className='item-links'>How It Works</a>
+        <a href="#faqs" className='item-links'>FAQs</a>
         <a href='https://airtable.com/appt852vx1MkACJdY/shrgUg4JQYsG6LDJM' target="_blank" rel="noopener noreferrer">
           <button className='nav-btn'>Contact Us</button>
         </a>
