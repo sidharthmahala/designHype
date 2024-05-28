@@ -46,6 +46,8 @@
   background-color: #000000;
   background-color: #287AF5;
   background-color: #e2f759;
+  background-color: #c278ff;
+
   border-radius: 10px;
   min-height: 400px;
   margin: 10px;
@@ -97,7 +99,8 @@
 }
 
 .dp-right {
-  background-color: #52D899;
+  background-color:#9F26FF;
+  background-color: #ad54f5;
   width: 25%;
   min-width: 300px;
   min-height: 400px;

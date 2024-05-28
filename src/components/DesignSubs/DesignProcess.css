@@ -21,11 +21,16 @@
 }
 
 .dp-step {
-  background-color: #52d899;
+  background-color:#fff;
   padding: 20px;
-  width: 250px;
+  width: 300px;
+  height: 250px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .dp-step-number {
@@ -49,22 +54,7 @@
   font-size: 16px;
   color: #333;
 }
-.dp-image-process{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 20px;
-}
-.dp-image-process img{
-    width: 90%;
-    margin: 20px auto;
-    height: auto;
-    border-radius: 20px;
-    border: 2px solid #B4EAB0;
 
-}
 @media screen and (max-width:768px) {
     .dp-how-it-works {
       
@@ -72,12 +62,4 @@
       padding: 10px;
       border-radius: 10px;
     }
-    
-    .dp-image-process img{
-        width: 90%;
-        height: auto;
-        border-radius: 10px;
-        margin: 10px auto;
-    }
-    
   }

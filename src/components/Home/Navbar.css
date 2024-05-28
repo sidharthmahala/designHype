@@ -31,16 +31,17 @@
   height: 25px;
   padding: 4px 3px;
   background-color: orangered;
+  border-radius: 3px;
 }
 .nav-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-width: 50%;
   font-size: 14px;
 }
 .nav-links a{
   text-decoration: none;
+  margin:0 5px;
 }
 .nav-btn {
   background-color: transparent;

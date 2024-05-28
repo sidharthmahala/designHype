@@ -23,9 +23,6 @@ function DesignProcess() {
           <p>Once approved, download your final designs and watch your brand shine.</p>
         </div>
       </div>
-      <div className='dp-image-process'>
-        <img src={require('../../Assets/dashboard1.png')} alt='' />
-      </div>
     </div>
   );
 }

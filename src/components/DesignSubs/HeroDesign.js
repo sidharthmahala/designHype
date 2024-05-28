@@ -5,11 +5,11 @@ const HeroDesign = () => {
   return (
     <section className="hero-design">
       <div className="hero-content-design">
-        <ul>
+        {/* <ul>
           <li>Fresh</li>
           <li>High Quality</li>
           <li>Modern</li>
-        </ul>
+        </ul> */}
         {/* <img src={require('../../Assets/bg-sta.png')} className="bg-star-1" alt=""/> */}
         <h1>Design Subscription for Everyone, delivered on time, every time</h1>
         <p>Get all the graphics you need, when you need them. Tailored for Startups, Small Businesses, and Indie Developers for one flat monthly fee.</p>
