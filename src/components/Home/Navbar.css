@@ -87,6 +87,7 @@
 @media only screen and (max-width: 500px) {
   .navbar-container {
     margin: 5px;
+    background-color: transparent;
   }
 
   .logo {

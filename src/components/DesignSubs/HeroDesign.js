@@ -11,7 +11,7 @@ const HeroDesign = () => {
           <li>Modern</li>
         </ul> */}
         {/* <img src={require('../../Assets/bg-sta.png')} className="bg-star-1" alt=""/> */}
-        <h1>Design Subscription for Everyone, delivered on time, every time</h1>
+        <h1>Unleash Your Brand's Potential with Stunning Canva Designs</h1>
         <p>Get all the graphics you need, when you need them. Tailored for Startups, Small Businesses, and Indie Developers for one flat monthly fee.</p>
         <div className='spots-available'>
           <button className="hero-button-design">Get Started Today</button>

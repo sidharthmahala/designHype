@@ -3,14 +3,17 @@
   background-color: orangered;
   display: flex;
   align-items: center;
-  justify-content: space-around;
   width: 100%;
   min-height: 40px;
 }
 
 @keyframes infiniteScroll {
-  from {transform: translateX(100%)}
-  to {transform: translateX(-80%)}
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .scroll-items {
@@ -18,16 +21,14 @@
   align-items: center;
   justify-content: space-around;
   font-size: 20px;
-  animation-name: infiniteScroll;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation: infiniteScroll 15s linear infinite;
 }
+
 .scroll-items__item {
   white-space: nowrap;
 }
 
-.scroll-items img{
+.scroll-items img {
   width: 30px;
   height: 30px;
   margin: 5px 10px;
