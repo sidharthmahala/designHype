@@ -1,14 +1,16 @@
+@import '../../variables.css';
+
 .faq-container {
     margin: 20px;
     padding: 30px;
-    background-color: #fff;
+    background-color: var(--white-bg-color);
     border-radius: 20px; 
   }
 
   .faq-container h2{
     margin: 10px;
     text-align: center;
-    color: #ff4500;
+    color:var(--primary-color);
   }
   
   .faq-item {
@@ -28,7 +30,7 @@
   
   .faq-item h3 span.icon {
     transition: transform 0.3s ease-in-out;
-    color: #ff4500;
+    color: var(--primary-color);
     font-size: 20px;
   }
   

@@ -1,3 +1,5 @@
+@import './variables.css';
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +7,7 @@
 }
 body {
   margin: 0 auto;
-  background-color: antiquewhite;
+  background-color: var(--body-background-color);
   background-image: url(./Assets/dp-bg-noise-hero.png);
   max-width: 1400px;
 }
@@ -23,7 +25,7 @@ body {
 
 /* Target the scrollbar thumb */
 ::-webkit-scrollbar-thumb {
-  background-color: #c0392b; /* Set orangered color for the thumb */
+  background-color: var(--primary-color); /* Set orangered color for the thumb */
   border-radius: 5px; /* Add rounded corners for a smoother look */
 }
 
@@ -34,5 +36,5 @@ body {
 
 /* Target the scrollbar when hovered (optional) */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: orangered; /* Darken the orangered on hover */
+  background-color: var(--secondary-color); /* Darken the orangered on hover */
 }

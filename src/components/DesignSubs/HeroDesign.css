@@ -1,6 +1,6 @@
 .hero-design {
   height: 90vh;
-  color: #000;
+  color: var(--text-color-dark);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,7 +10,7 @@
   text-align: center;
   margin: 0 20px 20px; 
   padding: 30px;
-  background-color: #ffffff;
+  background-color: var(--white-bg-color);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -66,7 +66,7 @@
 
 .hero-button-design {
   background-color: #83e029;
-  background-color: #ff4500;
+  background-color: var(--secondary-color);
   color: #ffffff;
   border: none;
   padding: 15px 20px;
@@ -88,6 +88,13 @@
   align-items: center;
   justify-content: center;
 }
+.spots-available a{
+  text-decoration: none;
+  color: white;
+}
+.spots-available a span{
+  padding: 0 10px;
+}
 .spots-available-text {
   padding: 4px;
   display: flex;
@@ -100,9 +107,9 @@
   display: inline-block;
   width: 12px;
   height: 12px;
-  background-color: orangered;
+  background-color: var(--primary-color);
   border-radius: 50%; /* Creates a circular shape */
-  box-shadow: 0 0 10px orangered; /* Adds a subtle glow */
+  box-shadow: 0 0 10px var(--primary-color); /* Adds a subtle glow */
   animation: flash 01s infinite alternate;
 }
 

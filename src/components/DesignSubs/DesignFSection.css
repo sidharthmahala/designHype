@@ -13,18 +13,19 @@
     min-height: 200px;
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: var(--white-bg-color);
     border-radius: 20px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     text-align: center;
   }
   
   .design-item .fa-icon {
-    color:yellow;
+    /* color:yellow; */
+    color: #000;
     width: 50px;
     height: 50px;
     padding: 10px;
-    background-color: #9F26FF;
+    background-color:var(--secondary-color);
     border-top-left-radius: 10%;
     border-bottom-right-radius: 20%;
     border-top-right-radius: 30%;
@@ -33,14 +34,14 @@
   
   .design-item h3 {
     margin-top: 15px;
-    font-size: 24px;
-    color: #333;
+    font-size: 20px;
+    color: var(--text-color-dark);
   }
   
   .design-item p {
     margin-top: 10px;
-    font-size: 1em;
-    color: #666;
+    font-size: 16px;
+    color: var(--text-color-grey);
   }
 
 @media (max-width: 780px) {

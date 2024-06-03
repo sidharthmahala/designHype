@@ -6,14 +6,14 @@
   flex-direction: column;
   align-self: center;
   justify-content: space-evenly;
-  background-color: #ffffff;
+  background-color: var(--white-bg-color);
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .scope-container h2 {
   font-size: 24px;
-  color: #333;
+  color: var(--text-color-dark);
   text-align: center;
 }
 
@@ -28,11 +28,11 @@
 
 .scope-item {
   font-size: 16px;
-  color: #fff;
+  color: var(--text-color-light);
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid #000000;
+  border: 1px solid var(--border-color);
   /* background-color: #000; */
 }
 
@@ -40,13 +40,13 @@
     border-bottom: none;
   } */
 .scope-item:nth-child(even) {
-  background-color: #9f26ff;
-  color: #fff;
+  background-color: var(--secondary-color);
+  color: var(--text-color-dark);
 }
 
 .scope-item:nth-child(odd) {
-  background-color: #ff4500;
-  color: #000;
+  background-color: var(--primary-color);
+  color: var(--text-color-dark);
 }
 
 @media screen and (max-width: 768px) {

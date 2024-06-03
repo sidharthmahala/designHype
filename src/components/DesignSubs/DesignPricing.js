@@ -32,7 +32,7 @@ function DesignPricing() {
                 </div>
                 <div className='dp-mid'>
                     <div className='dp-mid-sub-btn'>
-                        <h3>$297 Per Month</h3>
+                        <h3>$2297 Per Month</h3>
                         <p>Billed Every Three Months</p>
                     </div>
                     <div className='dp-mid-sub-btn'>
@@ -43,7 +43,7 @@ function DesignPricing() {
                 </div>
                 <div className='dp-right'>
                     <div className='dp-mid-sub-btn'>
-                        <h3>$467 Per Month</h3>
+                        <h3>$4567 Per Month</h3>
                         <p>Billed Every Month</p>
                     </div>
                     <div className='dp-mid-sub-btn'>

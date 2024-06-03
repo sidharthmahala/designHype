@@ -1,6 +1,6 @@
 .design-stripe-container {
   overflow: hidden;
-  background-color: orangered;
+  background-color: var(--primary-color);
   display: flex;
   align-items: center;
   width: 100%;

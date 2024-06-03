@@ -7,6 +7,7 @@ import Design from "./Pages/Design";
 import HospitalLanding from "./Pages/HospitalLanding"
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import Contact from "./Pages/Contact";
+import ThemeToggle from "./ThemeToggle";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact-us" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      <ThemeToggle />
     </div>
   );
 }

@@ -1,9 +1,9 @@
 .df-container {
-  background-color: #000000;
+  background-color: var(--primary-color);
   margin: 20px;
   padding: 20px;
   border-radius: 20px;
-  color: #fff;
+  color: var(--text-color-light);
   text-align: center;
   min-height: 200px;
   display: flex;
@@ -36,7 +36,7 @@
 
 .df-links a:hover,
 .df-socials a:hover {
-  color: #ff9800;
+  color: var(--secondary-color);
 }
 
 .df-bottom {
