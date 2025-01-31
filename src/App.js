@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+      <ThemeToggle />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Design />} />
@@ -23,7 +24,6 @@ function App() {
           <Route path="/contact-us" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-      <ThemeToggle />
     </div>
   );
 }

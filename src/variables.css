@@ -1,8 +1,8 @@
 /* variables.css */
 :root {
-    --primary-color: #3498db; /* Default light theme */
-    --primary-color-light:#91bad4;
-    --secondary-color: #2ecc71;
+    --primary-color: #DC5F00; /* Default light theme */
+    --primary-color-light:#ffa989;
+    --secondary-color: #EEEEEE;
     --background-color: #fff7f7;
     --background-color-dark:#47484b;
     --body-background-color:antiquewhite; 
